@@ -1,0 +1,28 @@
+.tabitem {
+  background-color: #36454F; /* Light gray background for tab items */
+}
+
+.gradio-container {
+  /* This needs to be !important, otherwise the breakpoint override the container being full width */
+  max-width: 100% !important;
+  padding: 10px !important;
+  background-color: #36454F; /* White background for the container */
+}
+
+footer {
+  visibility: hidden;
+}
+
+/* Additional color modifications */
+body {
+  color: #333333; /* Dark gray text color */
+}
+
+a {
+  color: #0066cc; /* Blue color for links */
+}
+
+input[type="text"], textarea {
+  background-color: #71797E; /* Very light gray background for input fields */
+  border: 1px solid #cccccc; /* Light gray border for input fields */
+}
